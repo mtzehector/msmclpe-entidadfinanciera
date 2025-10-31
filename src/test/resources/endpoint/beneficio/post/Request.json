@@ -1,0 +1,12 @@
+{
+	
+    "beneficio": [
+        {
+        	"desBeneficio":"Beneficio 1 chavo",
+            "mclcCondicionOferta": {
+                "id": "176"
+            }
+            
+        }
+    ]
+}

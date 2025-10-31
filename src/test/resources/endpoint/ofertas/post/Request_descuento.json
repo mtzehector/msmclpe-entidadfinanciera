@@ -1,0 +1,14 @@
+{ 
+   "page":"1",
+   "model" :{
+   "plazo":"3",	
+   "tipoSimulacion":"2",
+      "pensionado":{ 
+         "sexo":"3",
+         "edad":"80",
+         "entidadFederativa":"19"
+    	},
+      "monto":"11000",
+      "capacidadCredito":"1000"
+    }
+}
