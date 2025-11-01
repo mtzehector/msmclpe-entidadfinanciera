@@ -1,0 +1,14 @@
+{
+    "condicionOferta": [
+        {
+            "mclcEntidadFinanciera": {
+                "id": "1"
+            },
+            "mclcPlazo": {
+                "id": "1"
+            },
+            "porTasaAnual": "18",
+            "porCat": "20"
+        }
+    ]
+}

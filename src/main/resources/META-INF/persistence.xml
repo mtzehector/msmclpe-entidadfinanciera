@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+  <persistence-unit name="entidadfinanciera" transaction-type="JTA">
+    <provider>org.hibernate.ejb.HibernatePersistence</provider>
+    <jta-data-source>jdbc/mpcle</jta-data-source>
+    <class>mx.gob.imss.dpes.entidadfinancieraback.entity.MclcSexo</class>
+    <class>mx.gob.imss.dpes.entidadfinancieraback.entity.MclcPlazo</class>
+    <class>mx.gob.imss.dpes.entidadfinancieraback.entity.MclcMotivoSuspension</class>
+    <class>mx.gob.imss.dpes.entidadfinancieraback.entity.MclcCondicionEntfed</class>
+    <class>mx.gob.imss.dpes.entidadfinancieraback.entity.MclcEntidadFinanciera</class>
+    <class>mx.gob.imss.dpes.entidadfinancieraback.entity.MclcEntidadFinancieraPersistencia</class>
+    <class>mx.gob.imss.dpes.entidadfinancieraback.entity.MclcEstadoEf</class>
+    <class>mx.gob.imss.dpes.entidadfinancieraback.entity.EntidadFinanciera</class>
+    <class>mx.gob.imss.dpes.entidadfinancieraback.entity.MclcBeneficio</class>
+    <class>mx.gob.imss.dpes.entidadfinancieraback.entity.MclcCondicionOfertaOldie</class>
+    <class>mx.gob.imss.dpes.entidadfinancieraback.entity.MclcCondicionOferta</class>
+    <class>mx.gob.imss.dpes.entidadfinancieraback.entity.McltDocumento</class>
+    <class>mx.gob.imss.dpes.entidadfinancieraback.entity.MclcBancos</class>
+    <class>mx.gob.imss.dpes.entidadfinancieraback.entity.McltRegistrosPatronales</class>
+    <class>mx.gob.imss.dpes.entidadfinancieraback.entity.McltRegistroPatronal</class>
+    <class>mx.gob.imss.dpes.entidadfinancieraback.entity.McltCartaRecibo</class>
+    <class>mx.gob.imss.dpes.entidadfinancieraback.entity.MclcPrestadorServiciosEF</class>
+    <class>mx.gob.imss.dpes.entidadfinancieraback.entity.MclcEstatusConciliacion</class>
+    <class>mx.gob.imss.dpes.entidadfinancieraback.entity.MclcBeneficios</class>
+    
+    <exclude-unlisted-classes>true</exclude-unlisted-classes>
+    <properties>
+      <property name="hibernate.dialect" value="org.hibernate.dialect.Oracle10gDialect"/>
+      <property name="hibernate.show_sql" value="false"/>
+      <property name="hibernate.format_sql" value="true"/>
+      <property name="hibernate.use_sql_comments" value="true"/>
+      <property name="hibernate.max_fetch_depth" value="1"/>
+      <property name="hibernate.enable_lazy_load_no_trans" value="true"/>
+    </properties>
+  </persistence-unit>
+</persistence>

@@ -1,0 +1,19 @@
+{
+    "condicionFederativa": [
+        {
+            
+            "cveEntidadFederativa": 1,
+            "numEdadLimite": 18,
+            "monMinimo": 10000,
+            "monMaximo": 40000,
+            "mclcEntidadFinanciera": {
+                "id": "1"
+             
+            },
+            "mclcSexo": {
+                "id": "1"
+            }
+           
+        }
+    ]
+}
